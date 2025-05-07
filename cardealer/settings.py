@@ -211,6 +211,8 @@ AUTHENTICATION_BACKENDS = (
     'allauth.account.auth_backends.AuthenticationBackend',  # Allauth backend
 )
 
+
+
 # Optional settings for django-allauth
 LOGIN_REDIRECT_URL = '/' # Redirect after login
 LOGOUT_REDIRECT_URL = '/'  # Redirect after logout 
